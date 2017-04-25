@@ -7,7 +7,7 @@
 
 // ===== MODULES ===============================================================
 import React, {createElement} from 'react';
-import {Cell, CellBody, CellHeader, Input} from 'react-weui';
+import {Cell, CellBody, CellHeader, TextArea} from 'react-weui';
 
 const SCROLL_DURATION = 1000; // total duration in ms for scroll animation.
 
@@ -57,13 +57,13 @@ const NewItem = ({
       <CellBody>
         {/* Empty action attr enables 'Go' Submit Button on iOS Keyboard */}
         <form action onSubmit={onSubmit}>
-          <Input
+          <TextArea
             className={classes}
             disabled={disabled}
             id='new-item-text'
             onBlur={onSubmit}
             onChange={(event) => setNewItemText(event.target.value)}
-            placeholder='Add an item to the trip'
+            placeholder='Add trip details'
             type='text'
             value={newItemText}
           />
