@@ -5,7 +5,7 @@ import knex from '../../db/knex';
 import Lists from '../../models/lists';
 
 // Test comparator values are created in `test/sample-seeds` file.
-const DEFAULT_TITLE = 'Shopping List';
+const DEFAULT_TITLE = 'My Trip';
 const LIST_1_TITLE = DEFAULT_TITLE;
 const LIST_2_TITLE = 'To Do List';
 const USER_1_FB_ID = '1';

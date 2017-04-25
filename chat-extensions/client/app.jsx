@@ -104,7 +104,7 @@ export default class App extends React.Component {
 
   /* ----------  Update Document Attributes  ---------- */
 
-  setDocumentTitle(title = 'Shopping List') {
+  setDocumentTitle(title = 'My Trip') {
     console.log('Updating document title (above page):', title);
     document.title = title;
   }

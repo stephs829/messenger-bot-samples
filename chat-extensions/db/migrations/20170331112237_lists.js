@@ -9,7 +9,7 @@ exports.up = (knex, Promise) => {
   return Promise.all([
     knex.schema.createTable('lists', (table) => {
       table.increments();
-      table.string('title').defaultTo('Shopping List').notNullable();
+      table.string('title').defaultTo('My Trip').notNullable();
     }),
 
     knex.schema.createTable('lists_items', (table) => {

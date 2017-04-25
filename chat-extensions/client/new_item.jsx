@@ -63,7 +63,7 @@ const NewItem = ({
             id='new-item-text'
             onBlur={onSubmit}
             onChange={(event) => setNewItemText(event.target.value)}
-            placeholder='Add an item to the list'
+            placeholder='Add an item to the trip'
             type='text'
             value={newItemText}
           />

@@ -15,7 +15,7 @@ const Title = ({text, setTitleText}) => {
     <div id='title'>
       <Input
         value={text}
-        placeholder='List Title'
+        placeholder='Trip Title'
         onChange={(event) => setTitleText(event.target.value)}
       />
     </div>

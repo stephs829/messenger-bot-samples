@@ -23,7 +23,7 @@ const ListNotFound = () => {
         <h1>List Not Found</h1>
 
         <div id='oops-subtitle'>
-          <p>Sorry, we couldn't find the list you were looking for.</p>
+          <p>Sorry, we couldn't find the trip you were looking for.</p>
           <br />
           <p>We apologize for the inconvenience.</p>
         </div>

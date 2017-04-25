@@ -49,19 +49,19 @@ const persistentMenu = () => {
       call_to_actions: [
         {
           type: 'web_url',
-          title: 'Create List',
+          title: 'Create Trip',
           url: `${APP_URL}/lists/new`,
           webview_height_ratio: 'tall',
           messenger_extensions: true,
         },
         {
           type: 'postback',
-          title: 'My Lists',
+          title: 'My Trips',
           payload: 'owned_lists',
         },
         {
           type: 'postback',
-          title: 'Shared With Me',
+          title: 'Trips shared with me',
           payload: 'subscribed_lists',
         },
       ],
